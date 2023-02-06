@@ -5,41 +5,75 @@
 
   <!-- Expand the number of characters we can use in the document beyond basic ASCII 🎉 -->
   <meta charset="utf-8">
+  
+  <link rel="stylesheet" href="/my_style.css">
+
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&family=Press+Start+2P&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  
 </head>
 
+
 <body>
-  <div>
-    <a href="/rock">
-      Play Rock
-    </a>
+    <div class="container">
+      <div class="row mb">
+          <div class="one-third">
+            <a class="button" href="/rock">
+              Play Rock
+            </a>
+          </div>
+
+          <div class="one-third">
+            <a class="button" href="/paper">
+              Play Paper
+            </a>
+          </div>
+
+          <div class="one-third">
+            <a class="button" href="/scissors">
+              Play Scissors
+            </a>
+          </div>
+      </div>
+    
+
+  <div class="row mb">
+
+        <div class="player-card">
+          <h2 class="centered">
+            We played scissors!
+          </h2>
+        </div>
+
+
+        <div class="computer-card">
+          <h2 class="centered">
+            They played paper!
+          </h2>
+        </div>
+
+</div>
+
+<div class="row-center mb">
+  <div class="outcome-card">
+      <h2 class="centered">
+        We Won!
+      </h2>
   </div>
+</div>
 
-  <div>
-    <a href="/paper">
-      Play Paper
-    </a>
-  </div>
-
-  <div>
-    <a href="/scissors">
-      Play Scissors
-    </a>
-  </div>
-
-  <h2>
-    We played scissors!
-  </h2>
-
-  <h2>
-    They played paper!
-  </h2>
-
-  <h2>
-    We won!
-  </h2>
-
+<div class="row-center mb">
   <a href="/">
     Rules
   </a>
+</div>
+
+</div>
+</div>
+
 </body>
 </html>
+
